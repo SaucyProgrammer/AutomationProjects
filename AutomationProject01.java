@@ -30,6 +30,7 @@ public class AutomationProject01 {
             System.out.println( "Test passed: title matches." );
         }else {
             System.out.println("Test failed.");
+            System.exit(-1)
         }
 
         //Click on Signup here
@@ -70,6 +71,7 @@ public class AutomationProject01 {
             System.out.println( "Test passed: url matches." );
         }else {
             System.out.println("Test failed.");
+            System.exit(-1)
         }
 
 
@@ -90,6 +92,7 @@ public class AutomationProject01 {
             System.out.println( "Test passed: logout successful." );
         }else {
             System.out.println("Test failed.");
+            System.exit(-1)
         }
 
 
